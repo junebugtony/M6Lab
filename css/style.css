@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: red solid;
 }
 
 html {
@@ -16,6 +17,12 @@ article {
   height: 297mm;
   margin: 20px auto;
   position: relative;
+  background:
+    url('/img/top-image.png') no-repeat top center, 
+    url('/img/bottom-image.png') no-repeat bottom center,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(0, 0, 0, 0.1) 100%);
+  background-repeat: no-repeat;
+  background-size: contain, contain, cover;
 }
 
 address {
@@ -37,5 +44,3 @@ h1 {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
-
-/* Your CSS below here */

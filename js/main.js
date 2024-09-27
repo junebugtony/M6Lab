@@ -1,18 +1,29 @@
-window.onload = loaded;
-
-/**
- * Simple Function that will be run when the browser is finished loading.
- */
-function loaded() {
-    // Assign to a variable so we can set a breakpoint in the debugger!
-    const hello = sayHello();
-    console.log(hello);
-}
-
-/**
- * This function returns the string 'hello'
- * @return {string} the string hello
- */
-export function sayHello() {
-    return 'hello';
-}
+window.onload = function () {
+    document.getElementById('alertButton').addEventListener('click', function() {
+        const options = document.getElementsByName('options');
+        let selectedOption = '';
+        for (const option of options) {
+            if (option.checked) {
+                selectedOption = option.value;
+                break;
+            }
+        }
+        
+        switch (selectedOption) {
+            case 'Option 1':
+                alert('Thank you pollinators!');
+                break;
+            case 'Option 2':
+                alert('Nothing cuter than a baby hippo biting your leg');
+                break;
+            case 'Option 3':
+                alert('Mexican food though, right?');
+                break;
+            case 'Option 4':
+                alert('I hope you get some good rest tonight!');
+                break;
+            default:
+                break;
+        }
+    });
+};

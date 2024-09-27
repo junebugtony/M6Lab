@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  border: red solid;
 }
 
 html {
@@ -32,6 +31,10 @@ article {
 
   /* Adds a white background to the letter */
   background-color: white;
+
+  /* Top and bottom solid border */
+  border-top: red solid;
+  border-bottom: red solid;
 }
 
 address {
@@ -52,4 +55,49 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+
+  /* Logo image */
+  background-image: url('/img/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5)); */
+
+  border-radius: 50%; /* Rounds out the image */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Browser compatible alternative drop shadow */
+}
+
+.container {
+  display: flex; /* Use flexbox for the layout */
+  justify-content: space-between; /* Space between columns */
+  margin: 20px;
+}
+
+.column {
+  width: 50%; /* Set width for the columns */
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.column p {
+  line-height: 1.5; /* Set line height for better readability */
+  overflow-wrap: break-word; /* Ensure long words break to the next line */
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  margin-top: 200px;
+  z-index: 1;
+}
+
+.radio-buttons {
+  margin: 20px;
 }

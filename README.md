@@ -1,24 +1,18 @@
-# Web Dev Starter Code
+# Letterheaded Paper Template
 
 ## Overview
 
-TODO: Write a project description
+This is a project that consists of a formatted letterhead paper template. The purpose of this project is to explorer deeper into CSS and specifically the box model and understanding that there are multiple ways to achieve the same goal using CSS.
+
+To view the formatted letterhead template:
+
+Step 1: ```Clone this repository locally.```
+
+Step 2: ```Open the cloned repository in your IDE of choice (VSCode recommended).```
+
+Step 3: ```Open the index.html file and click on the "open preview" button in the upper right corner of the window.```
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- Backgrounds and Borders: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders
+- The Box Model: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
